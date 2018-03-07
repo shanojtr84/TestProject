@@ -24,6 +24,7 @@ public class TestTest {
 		capabilities.setCapability("app", "settings");
 		capabilities.setCapability("udid", "3bc7dd8b5c22793740afe7d216afb5ba2933e394");
 		//capabilities.setCapability("fullReset", false);
+        
 		capabilities.setCapability("noReset", true);
 		driver = new IOSDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
 		
